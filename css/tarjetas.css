@@ -1,0 +1,33 @@
+#root{
+    width: 71rem;
+    padding: 2rem;
+    height: auto;
+    border: 3px solid rgb(203, 226, 236);
+    border-radius: 0.5rem;
+    background-color: rgb(2, 128, 182);
+
+    margin: auto;
+    margin-top: 5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tarjetas{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    border: 3px solid rgb(203, 226, 236);
+    font-size: 5rem;
+    margin: 0.5rem;
+    background-color: rgb(85, 186, 223);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tarjetas:hover{
+    background-color: rgb(203, 226, 236);
+}
